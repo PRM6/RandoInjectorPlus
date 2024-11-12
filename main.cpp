@@ -86,7 +86,7 @@ bool InjectDLL(DWORD processID, const std::string& dllPath) {
 }
 
 int main() {
-    const std::string targetProcess = "notepad.exe";
+    const std::string targetProcess = "notepad.exe"; // Your process name, e.g. "cs2.exe"
     std::string dllPath;
 
     DWORD processID = FindProcessID(targetProcess);
