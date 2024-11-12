@@ -2,6 +2,7 @@
 #include <Windows.h>
 #include <TlHelp32.h>
 
+// input your dll name inhere, it needs to be in the same folder as randoinjector (will be fixed in the next versions)
 #define DLL_NAME "dll.dll" 
 
 DWORD Process(const char* ProcessName)
